@@ -1,3 +1,4 @@
+import os
 import numpy as np
 import cv2
 import imutils
@@ -62,7 +63,7 @@ if __name__ == "__main__":
                         help="Input video file")
 
     parser.add_argument("-o", "--output_video",
-                        default='output.mp4',
+                        default='output.avi',
                         help="Output video file")
 
     args = parser.parse_args()
